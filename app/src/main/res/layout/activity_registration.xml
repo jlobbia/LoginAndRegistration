@@ -18,7 +18,8 @@
         app:layout_constraintBottom_toTopOf="@+id/registration_username"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/registration_username"
@@ -33,7 +34,8 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/registration_name"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/registration_confirmpass"
@@ -46,7 +48,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/registration_password" />
+        app:layout_constraintTop_toBottomOf="@+id/registration_password"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/registration_password"
@@ -61,7 +64,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/registration_username" />
+        app:layout_constraintTop_toBottomOf="@+id/registration_username"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/registration_email"
@@ -73,7 +77,8 @@
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/registration_confirmpass" />
+        app:layout_constraintTop_toBottomOf="@+id/registration_confirmpass"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/register_button"
